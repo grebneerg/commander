@@ -1,0 +1,30 @@
+[[package]]
+name = "commander"
+version = "0.1.0"
+dependencies = [
+ "wpilib 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "lazy_static"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "wpilib"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "lazy_static 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "wpilib-sys 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "wpilib-sys"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum lazy_static 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a374c89b9db55895453a74c1e38861d9deec0b01b405a82516e9d5de4820dea1"
+"checksum wpilib 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "12dd8aaa87d2624d8cc3ceaa4c54ff9362c2602f3ef2612a0b618de2a368070b"
+"checksum wpilib-sys 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "aac28154c5b91968d15d183a9fb512e5ad41837e0c838700e673285e0c59fdf0"
