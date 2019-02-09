@@ -1,2 +1,5 @@
+[build]
+target = "arm-unknown-linux-gnueabi"
+
 [target.arm-unknown-linux-gnueabi]
 linker = "/home/jack/Downloads/frc2019/roborio/bin/arm-frc2019-linux-gnueabi-gcc"

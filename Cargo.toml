@@ -6,3 +6,8 @@ edition = "2018"
 
 [dependencies]
 wpilib = "0.4.0"
+wpilib-sys = "0.4.0"
+
+[package.metadata.frc]
+team-number = 639
+target-dir = "./target"
